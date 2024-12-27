@@ -43,6 +43,8 @@ md5 = "0.7.0"
 chrono = "0.4.38"
 tauri-plugin-os = "2"
 boxcar = "0.2.7"
+rustic_core = "0.7.3"
+rustic_backend = "0.5.2"
 
 [dependencies.tauri]
 version = "2.1.1"
@@ -85,3 +87,6 @@ features = ["json", "blocking"]
 lto = true
 codegen-units = 1
 panic = 'abort'
+
+[dev-dependencies]
+tempfile = "3.14.0"

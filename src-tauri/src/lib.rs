@@ -7,6 +7,7 @@ mod cleanup;
 mod process;
 mod remote;
 mod state;
+mod backups;
 #[cfg(test)]
 mod tests;
 
