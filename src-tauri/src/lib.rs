@@ -8,6 +8,7 @@ mod download_manager;
 mod error;
 mod process;
 mod remote;
+mod update_checker;
 
 use crate::database::db::DatabaseImpls;
 use autostart::{get_autostart_enabled, toggle_autostart};
